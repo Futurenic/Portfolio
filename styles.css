@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+  }
+
+header {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+    background: var(--main-red);
+    
+}
+
+nav {   
+    z-index: 10;
+     
+
+}
+
+.navList {
+     
+    list-style: none;
+    display: flex; 
+    justify-content: space-between; 
+     
+}
+
+.navList li {
+    display: inline-block; 
+    margin-right: 2rem; 
+    border-radius: 10px; 
+    padding: 1rem 1rem;  
+}
+
+.navList li:hover {
+    background-color: var(--main-blue);
+}
+
+.navList a {
+    color: var(--main-white); 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+  }
+
+/*Main Landing Page*/
+#welcomeSection { 
+    background-color: var(--main-gray);
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcomeSection p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+  }
+
+/*Projects Section*/  
+#projects {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem; 
+    background-color: var(--main-blue);
+    
+}
+#projects h2 {
+    max-width: 900px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+  }
+
+#projects a {
+    color: #fff; 
+    text-decoration: none; 
+}  
+
+.row1 {
+    display: flex; 
+}
+
+.row2 {
+    display: flex; 
+}
+
+.projectTile {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 3rem 3rem; 
+} 
+
+/*Contact Section*/
+
+.contactSection {
+    
+}
